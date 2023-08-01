@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+
 import HeaderImage from '../../assets/about.jpeg'
 import data from './data'
 

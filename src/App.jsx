@@ -43,7 +43,7 @@ const App = () => {
 
     // cleanup function
     return () => clearInterval(checkYPosition);
-  }, [siteYPostion])
+  },)
 
   
 
@@ -64,3 +64,9 @@ const App = () => {
 }
 
 export default App
+
+//app.js
+//i removed this siteYPostion independancy 
+
+//theme-context-js 
+////From this useEffect i removed [themeState.primary, themeState.background] this independancey
