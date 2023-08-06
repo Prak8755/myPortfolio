@@ -7,10 +7,10 @@ import './theme.css'
 const Theme = () => {
   return (
     <Modal className="theme__modal">
-        <h3>Customize Your Theme</h3>
-        <small>Change the primary and background color to your preference.</small>
+        <h3>Change Theme from here</h3>
+        <small>Here i have added different Theme color. give it a try...</small>
         <div className="theme__primary-wrapper">
-            <h5>Primary Color</h5>
+            <h5>You may like them..</h5>
             <div className="theme__primary-colors">
                 {
                     primaryColors.map(pColor => <PrimaryColor key={pColor.className} className={pColor.className}/>)

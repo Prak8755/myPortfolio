@@ -16,7 +16,7 @@ export const ThemeProvider = ({children}) => {
     // save theme settings to local storage
     useEffect(() => {
         localStorage.setItem('themeSettings', JSON.stringify(themeState))
-    }, [themeState.primary, themeState.background])
+    },)
 
 //From this useEffect i removed [themeState.primary, themeState.background] this independancey
     return <ThemeContext.Provider value={{themeState, themeHandler}}>{children}</ThemeContext.Provider>
