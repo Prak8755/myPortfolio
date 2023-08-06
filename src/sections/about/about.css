@@ -49,10 +49,12 @@
 }
 
 .about__right p {
+    padding: 1rem;
     margin-bottom: 0.8rem;
 }
 
 .about__right .btn {
+    
     margin-top: 2.5rem;
 }
 
