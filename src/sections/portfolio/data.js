@@ -5,9 +5,8 @@ import youtube from '../../assets/Youtube.jpeg';
 import swiggy from '../../assets/swiggy.jpeg';
 import recipe from '../../assets/recipe.jpeg';
 import calculator from '../../assets/calculator.jpeg'
-
-
-
+import infinite from '../../assets/Infinite-scrolling.png'
+import imageGallery from  '../../assets/ImageGallery.png';
 
 const data = [
   
@@ -66,7 +65,26 @@ const data = [
         desc: "This is one of my Responsive website that called Usability. In this project i have gained knolwedge about responsive design with simple Css.",
         demo: 'https://transcendent-lily-09fe38.netlify.app/',
         github: 'https://github.com/Prak8755/Usability-Responsive'
-    }
+    },
+    {
+        id: 7,
+        category: 'React js',
+        image: infinite,
+        title: "Infinite Scrolling",
+        desc: "This project is all about React infinite scrolling, which is purely based on React js ,no external library is used.With this project i have learned how to implement infinite scrolling to a React App.",
+        demo: 'https://inifinite-scrolling-app.onrender.com/',
+        github: 'https://github.com/Prak8755/Infinite_scroling'
+    },
+    {
+        id: 7,
+        category: 'React js',
+        image: imageGallery,
+        title: "Image Gallery Show",
+        desc: "This project is all about React Image Gallery search show where i have used public Api for image data and then implemented the search functionality using useState and useEffect",
+        demo: 'https://sage-hummingbird-905545.netlify.app/',
+        github: 'https://github.com/Prak8755/Image_Gallery_show'
+    },
+   
 ]
 
 
