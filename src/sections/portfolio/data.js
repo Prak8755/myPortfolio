@@ -76,7 +76,7 @@ const data = [
         github: 'https://github.com/Prak8755/Infinite_scroling'
     },
     {
-        id: 7,
+        id: 8,
         category: 'React js',
         image: imageGallery,
         title: "Image Gallery Show",
