@@ -7,8 +7,19 @@ import recipe from '../../assets/recipe.jpeg';
 import calculator from '../../assets/calculator.jpeg'
 import infinite from '../../assets/Infinite-scrolling.png'
 import imageGallery from  '../../assets/ImageGallery.png';
+import netflix from '../../assets/Netflix.png';
+
 
 const data = [
+    {
+        id: 0,
+        category: 'React js',
+        image:netflix,
+        title: "Mini Netflix-Gpt",
+        desc: "This is a Netflix Gpt Project which is all about mini Netflix features ,it has Login and Sign up functionality with Firebase Authentication.In this project i have used TMDB Api for movie results and Open Ai for Gpt search results.",
+        demo: ' https://netflix-gpt-400cd.web.app',
+        github: 'https://github.com/Prak8755/Nteflix_Gpt'
+    },
   
     {
         id: 1,
