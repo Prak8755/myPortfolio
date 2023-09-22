@@ -8,6 +8,8 @@ import calculator from '../../assets/calculator.jpeg'
 import infinite from '../../assets/Infinite-scrolling.png'
 import imageGallery from  '../../assets/ImageGallery.png';
 import netflix from '../../assets/Netflix.png';
+import movies from '../../assets/MoviesJs.png';
+
 
 
 const data = [
@@ -53,6 +55,15 @@ const data = [
     {
         id: 4,
         category: 'Html Css Javascript',
+        image: movies,
+        title: "Mini Movies website",
+        desc: "This project is again based on javascript advance functionality.This movie website has numerous feature like lazy loading , smooth navigation scrolling , slider component , and much more  ",
+        demo: 'https://movie-website-bhv1.onrender.com/',
+        github: 'https://github.com/Prak8755/moviesJs'
+    },
+    {
+        id: 5,
+        category: 'Html Css Javascript',
         image: recipe,
         title: "Recipe Book Api",
         desc: "This project is based upon Vanilla Javascript ,Html5 and css3. In this Project i have used Food Api to fecth the Restaurant details and displaying them on the UI.",
@@ -60,7 +71,7 @@ const data = [
         github: 'https://github.com/Prak8755/Recipe_Book'
     },
     {
-        id: 5,
+        id: 6,
         category: 'Html Css Javascript',
         image: Mockup,
         title: "Mockup Show",
@@ -69,7 +80,7 @@ const data = [
         github: 'https://github.com/Prak8755/New_Mockup'
     },
     {
-        id: 6,
+        id: 7,
         category: 'Html Css Javascript',
         image: Usb,
         title: "Usuability Responsive",
@@ -78,7 +89,7 @@ const data = [
         github: 'https://github.com/Prak8755/Usability-Responsive'
     },
     {
-        id: 7,
+        id: 8,
         category: 'React js',
         image: infinite,
         title: "Infinite Scrolling",
@@ -87,7 +98,7 @@ const data = [
         github: 'https://github.com/Prak8755/Infinite_scroling'
     },
     {
-        id: 8,
+        id: 9,
         category: 'React js',
         image: imageGallery,
         title: "Image Gallery Show",
