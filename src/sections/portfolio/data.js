@@ -19,7 +19,7 @@ const data = [
         image:Ecommerce,
         title: "E-COMMERCE APP",
         desc: "Here This Project is all about my React js learning experience.This is actually like an E-commerce Website,which has functionality like filtering product ,pagination ,sign up ,login details , This is yet the front end part of the Project , i am still working on its Backend Part , so This Project May not have Live Demo yet, But you can refer to My source Code below, i will soon add the Demo version ..",
-        demo: 'https://e-comm-frontend-vnym.onrender.com/login',
+        demo: 'https://e-comm-frontend-vnym.onrender.com',
         github: 'https://github.com/Prak8755/E-commerce-frontend'
     },
     {
