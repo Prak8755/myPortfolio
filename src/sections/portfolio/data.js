@@ -2,27 +2,26 @@
 import Mockup from '../../assets/mockup.jpeg'
 import Usb from '../../assets/usb.jpeg'
 import youtube from '../../assets/Youtube.jpeg';
-import swiggy from '../../assets/swiggy.jpeg';
+import Ecommerce from '../../assets/E-comm.png';
 import recipe from '../../assets/recipe.jpeg';
 import calculator from '../../assets/calculator.jpeg'
 import infinite from '../../assets/Infinite-scrolling.png'
 import imageGallery from  '../../assets/ImageGallery.png';
 import netflix from '../../assets/Netflix.png';
 import movies from '../../assets/MoviesJs.png';
-
+import crud from '../../assets/crud.png';
 
 
 const data = [
     {
         id: 0,
         category: 'React js',
-        image:netflix,
-        title: "Mini Netflix-Gpt",
-        desc: "This is a Netflix Gpt Project which is all about mini Netflix features ,it has Login and Sign up functionality with Firebase Authentication.In this project i have used TMDB Api for movie results and Open Ai for Gpt search results.",
-        demo: ' https://netflix-gpt-400cd.web.app',
-        github: 'https://github.com/Prak8755/Nteflix_Gpt'
+        image:Ecommerce,
+        title: "E-COMMERCE APP",
+        desc: "Here This Project is all about my React js learning experience.This is actually like an E-commerce Website,which has functionality like filtering product ,pagination ,sign up ,login details , This is yet the front end part of the Project , i am still working on its Backend Part , so This Project May not have Live Demo yet, But you can refer to My source Code below, i will soon add the Demo version ..",
+        demo: 'https://e-comm-frontend-vnym.onrender.com/login',
+        github: 'https://github.com/Prak8755/E-commerce-frontend'
     },
-  
     {
         id: 1,
         category: 'React js',
@@ -33,18 +32,37 @@ const data = [
         github: 'https://github.com/Prak8755/Mini-youtube'
     },
     {
-        id: 2,
-        category: 'React js',
-        image: swiggy,
-        title: "Mini swiggy App",
-        desc: "This project was my beginning with React ,where i implemented user offline,online, search recipe ,recipe can be added to the cart ,error handling ,swiggy live api data for recipe ,user can visit the restaurant menu and many more....",
-        demo: 'https://github.com/Prak8755/Swiggy',
-        github: 'https://github.com/Prak8755/Swiggy'
+     id: 2,
+     category: 'React js',
+     image:netflix,
+     title: "Mini Netflix-Gpt",
+     desc: "This is a Netflix Gpt Project which is all about mini Netflix features ,it has Login and Sign up functionality with Firebase Authentication.In this project i have used TMDB Api for movie results and Open Ai for Gpt search results.",
+     demo: ' https://netflix-gpt-400cd.web.app',
+     github: 'https://github.com/Prak8755/Nteflix_Gpt'
     },
-   
-   
+  
     {
         id: 3,
+        category: 'Html Css Javascript',
+        image: movies,
+        title: "Mini Movies website",
+        desc: "This project is again based on javascript advance functionality.This movie website has numerous feature like lazy loading , smooth navigation scrolling , slider component , and much more j ",
+        demo: 'https://movie-website-bhv1.onrender.com/',
+        github: 'https://github.com/Prak8755/moviesJs'
+    },
+   
+    {
+        id: 4,
+        category: 'Html Css Javascript',
+        image: crud,
+        title: "Simple Crud App",
+        desc: "This Project is all about Basic crud functionality , which is create ,read ,edit ,update and delete the data.I have used Local Storage to save the data.Please take a look by clicking below demo link",
+        demo: 'https://clinquant-baklava-59c1b0.netlify.app/',
+        github: 'https://github.com/Prak8755/JsCrud'
+    },
+   
+    {
+        id: 5,
         category: 'Html Css Javascript',
         image: calculator,
         title: "Simple javascript Calculator",
@@ -53,16 +71,7 @@ const data = [
         github: 'https://github.com/Prak8755/Responsive-Calc'
     },
     {
-        id: 4,
-        category: 'Html Css Javascript',
-        image: movies,
-        title: "Mini Movies website",
-        desc: "This project is again based on javascript advance functionality.This movie website has numerous feature like lazy loading , smooth navigation scrolling , slider component , and much more  ",
-        demo: 'https://movie-website-bhv1.onrender.com/',
-        github: 'https://github.com/Prak8755/moviesJs'
-    },
-    {
-        id: 5,
+        id: 6,
         category: 'Html Css Javascript',
         image: recipe,
         title: "Recipe Book Api",
@@ -71,7 +80,7 @@ const data = [
         github: 'https://github.com/Prak8755/Recipe_Book'
     },
     {
-        id: 6,
+        id: 7,
         category: 'Html Css Javascript',
         image: Mockup,
         title: "Mockup Show",
@@ -80,7 +89,7 @@ const data = [
         github: 'https://github.com/Prak8755/New_Mockup'
     },
     {
-        id: 7,
+        id: 8,
         category: 'Html Css Javascript',
         image: Usb,
         title: "Usuability Responsive",
@@ -89,7 +98,7 @@ const data = [
         github: 'https://github.com/Prak8755/Usability-Responsive'
     },
     {
-        id: 8,
+        id: 9,
         category: 'React js',
         image: infinite,
         title: "Infinite Scrolling",
@@ -98,7 +107,16 @@ const data = [
         github: 'https://github.com/Prak8755/Infinite_scroling'
     },
     {
-        id: 9,
+        id: 10,
+        category: 'React js',
+        image: imageGallery,
+        title: "Image Gallery Show",
+        desc: "This project is all about React Image Gallery search show where i have used public Api for image data and then implemented the search functionality using useState and useEffect",
+        demo: 'https://sage-hummingbird-905545.netlify.app/',
+        github: 'https://github.com/Prak8755/Image_Gallery_show'
+    },
+    {
+        id: 11,
         category: 'React js',
         image: imageGallery,
         title: "Image Gallery Show",
